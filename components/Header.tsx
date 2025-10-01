@@ -74,10 +74,11 @@ export default function Header() {
     </Link>
 
     {/* Right: Other logos (desktop only) */}
-    <div className={styles.rightLogos}>
-      <Image src="/up1.png" alt="Logo 1" width={50} height={50} />
-      <Image src="/up2.png" alt="Logo 2" width={50} height={50} />
-      <Image src="/up3.png" alt="Logo 3" width={50} height={50} />
+   <div className={styles.rightLogos}>
+       <Image src="/DICGCLogo.jpg" alt="Logo 2" width={50} height={50} />
+      <Image src="/qrcode.png" alt="Logo 1" width={50} height={50} />
+     
+      {/* <Image src="/up3.png" alt="Logo 3" width={50} height={50} /> */}
     </div>
 
     {/* Hamburger menu (tablet/mobile) */}
@@ -347,3 +348,4 @@ export default function Header() {
     </header>
   );
 }
+
