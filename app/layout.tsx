@@ -7,7 +7,7 @@ import Footer from '@/components/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Model Co-op Bank Ltd. - Your Development Partner',
+  title: 'Rameshwar Co-operative Bank Ltd. - Your Development Partner',
   description: 'Leading cooperative bank offering comprehensive banking solutions including loans, deposits, digital banking services and more.',
 };
 
