@@ -19,7 +19,7 @@ export default function ContactUs() {
 
           <div className={styles.infoItem}>
             <h3>Phone</h3>
-            <p>9920310335</p>
+            <p>99203 10335</p>
           </div>
 
           <div className={styles.infoItem}>
@@ -70,4 +70,5 @@ export default function ContactUs() {
     </div>
   );
 }
+
 
