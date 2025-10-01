@@ -13,7 +13,7 @@ export default function ContactUs() {
           <div className={styles.infoItem}>
             <h3>Address</h3>
             <p>
-              Prathamesh Horizon, Bus Stop, New Link Rd, near Don Bosco School, opp. Rameshwar Bank, New MHB Colony, Ashtavinayak Nagar, Borivali West, Mumbai, Maharashtra 400091
+              Prathamesh Horizon, Rameshwar Bank Bus Stop, New Link Rd, near Don Bosco School, opp. Rameshwar Bank, New MHB Colony, Ashtavinayak Nagar, Borivali West, Mumbai, Maharashtra 400091
             </p>
           </div>
 
@@ -24,7 +24,7 @@ export default function ContactUs() {
 
           <div className={styles.infoItem}>
             <h3>Email</h3>
-            <p><a href="mailto:info@rameshwarbank.com">rcbborivali@gmail.com</a></p>
+            <p><a href="mailto:info@rameshwarbank.com">rcbborivali@rameshwarbank.com</a></p>
           </div>
 
           <div className={styles.infoItem}>
@@ -70,3 +70,4 @@ export default function ContactUs() {
     </div>
   );
 }
+
