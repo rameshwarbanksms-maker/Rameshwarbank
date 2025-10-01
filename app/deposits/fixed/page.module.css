@@ -1,0 +1,252 @@
+/* Wrapper */
+.pageWrapper {
+  background: #ffffff;
+  min-height: 100vh;
+  font-family: system-ui, sans-serif;
+}
+
+.main {
+  padding: 2rem 1rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Hero */
+.heroWrapper {
+  margin-bottom: 2rem;
+}
+
+.heroImage {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Title */
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: rgb(219, 6, 24); /* theme color */
+}
+
+/* Plans */
+.plansGrid {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.planCard {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fafafa;
+}
+
+.planButton {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.planButton:hover {
+  background: #f3f4f6;
+}
+
+.planTitle {
+  color: rgb(219, 6, 24);
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  color: rgb(219, 6, 24);
+}
+
+.planDescriptionWrapper {
+  border-top: 1px solid #eee;
+  padding: 0.75rem 1rem;
+  background: #fff;
+}
+
+.planDescription {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* Interest Rates */
+.ratesWrapper {
+  margin-bottom: 2.5rem;
+}
+
+.ratesTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: rgb(219, 6, 24);
+}
+
+.tableWrapper {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.th, .td {
+  padding: 0.75rem;
+  border: 1px solid #e5e7eb;
+  text-align: center;
+}
+
+.th {
+  background: #f9fafb;
+  font-weight: 600;
+  color: rgb(219, 6, 24);
+}
+
+.td {
+  background: #fff;
+  color: #444;
+}
+
+/* Millionaire Scheme */
+.millionaireWrapper {
+  margin-bottom: 2.5rem;
+}
+
+.millionaireTitle {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: rgb(219, 6, 24);
+}
+
+.millionaireGrid {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .millionaireGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.millionaireCard {
+  background: #fafafa;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.millionaireCardTitle {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: rgb(219, 6, 24);
+}
+
+.millionaireDetails {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Terms */
+.termsWrapper {
+  margin-bottom: 2.5rem;
+}
+
+.termsTitle {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: rgb(219, 6, 24);
+}
+
+.termsContent {
+  background: #f9fafb;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.termsSubtitle {
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: rgb(219, 6, 24);
+}
+
+.termsExtra {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Navigation Card */
+.navWrapper {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.navCard {
+  display: inline-block;
+  max-width: 400px;
+  text-decoration: none !important; /* remove underline */
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.navCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  border-color: rgb(219, 6, 24);
+}
+
+.navImage {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.navTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 0.75rem;
+  color: rgb(219, 6, 24);
+}
+
+.navDescription {
+  font-size: 0.95rem;
+  color: #555;
+  padding: 0 1rem 1rem;
+}

@@ -1,0 +1,147 @@
+.rdPage {
+  min-height: 100vh;
+  background: #fff;
+}
+
+.rdMain {
+  padding: 4rem 0;
+}
+
+.rdContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.rdHeroWrapper {
+  margin-bottom: 2rem;
+}
+
+.rdHeroImage {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.rdTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: rgb(219,6,24);
+}
+
+.rdIntroContainer {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.rdIntroTitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: rgb(219,6,24);
+}
+
+.rdIntroText {
+  color: #555;
+}
+
+.rdRatesContainer {
+  margin: 2rem 0;
+}
+
+.rdRatesTitle {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: rgb(219,6,24);
+}
+
+.rdTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.rdTable th,
+.rdTable td {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.rdMillionaireContainer {
+  margin: 2rem 0;
+}
+
+.rdMillionaireGrid {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.rdMillionaireCard {
+  flex: 1;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  color: rgb(219,6,24);
+}
+
+.rdConditionsNote {
+  font-size: 0.875rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+.rdFeaturesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.rdFeatureCard {
+  background: #f0fdf4;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  color: rgb(219,6,24);
+}
+
+.rdFeatureIcon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: rgb(219,6,24);
+}
+
+.rdTermsContainer {
+  margin: 2rem 0;
+  padding: 1rem;
+  background: #f9fafb;
+  border-radius: 8px;
+  color: rgb(219,6,24);
+}
+
+.rdNavWrapper {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.rdNavCard {
+  display: inline-block;
+  text-decoration: none;
+  background: #f3f4f6;
+  padding: 1rem;
+  border-radius: 12px;
+  transition: transform 0.2s ease;
+  color: rgb(219,6,24);
+}
+
+.rdNavCard:hover {
+  transform: translateY(-5px);
+}
+
+.rdNavImage {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}

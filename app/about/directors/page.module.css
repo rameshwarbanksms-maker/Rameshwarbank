@@ -1,0 +1,327 @@
+.container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+}
+
+.hero {
+  background: linear-gradient(135deg, rgb(219, 6, 24) 0%, rgba(219, 6, 24, 0.85) 100%); /* changed */
+  color: white;
+  padding: 80px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heroContent {
+  padding-right: 20px;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  opacity: 0.9;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.heroImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainImage {
+  width: 100%;
+  max-width: 500px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.mainImage:hover {
+  transform: scale(1.02);
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 60px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgb(219, 6, 24); /* changed */
+  margin-bottom: 25px;
+}
+
+.intro p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #666;
+}
+
+.membersGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.memberCard {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  text-align: center;
+}
+
+.memberCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(219, 6, 24, 0.15); /* changed */
+  border-color: rgba(219, 6, 24, 0.2); /* changed */
+}
+
+.imageContainer {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.memberImage {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid rgb(219, 6, 24); /* changed */
+  transition: all 0.3s ease;
+}
+
+.memberCard:hover .memberImage {
+  border-color: rgba(219, 6, 24, 0.85); /* changed */
+  transform: scale(1.05);
+}
+
+.memberInfo {
+  text-align: center;
+}
+
+.memberName {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+.memberDesignation {
+  font-size: 1rem;
+  color: rgb(219, 6, 24); /* changed */
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+
+
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .hero {
+    max-width: 100%;
+    padding: 60px 20px;
+  }
+  
+  .membersGrid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+  }
+}
+
+@media (max-width: 968px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+  
+  .heroContent {
+    padding-right: 0;
+  }
+  
+  .title {
+    font-size: 2.8rem;
+  }
+  
+  .subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .mainImage {
+    height: 280px;
+  }
+  
+  .content {
+    padding: 60px 20px;
+  }
+  
+  .intro h2 {
+    font-size: 2rem;
+  }
+  
+  .membersGrid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 40px 15px;
+  }
+  
+  .title {
+    font-size: 2.2rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+  }
+  
+  .mainImage {
+    height: 250px;
+  }
+  
+  .content {
+    padding: 40px 15px;
+  }
+  
+  .intro h2 {
+    font-size: 1.8rem;
+  }
+  
+  .intro p {
+    font-size: 1rem;
+  }
+  
+  .membersGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .memberCard {
+    padding: 25px 20px;
+  }
+  
+  .memberImage {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .memberName {
+    font-size: 1.2rem;
+  }
+  
+  .memberDesignation {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.8rem;
+  }
+  
+  .subtitle {
+    font-size: 0.9rem;
+  }
+  
+  .mainImage {
+    height: 200px;
+  }
+  
+  .memberImage {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .memberName {
+    font-size: 1.1rem;
+  }
+}
+
+/* Large Screen / TV Optimization */
+@media (min-width: 1400px) {
+  .hero {
+    max-width: 1400px;
+    padding: 100px 40px;
+  }
+  
+  .title {
+    font-size: 4rem;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+  }
+  
+  .mainImage {
+    height: 400px;
+  }
+  
+  .content {
+    max-width: 1400px;
+    padding: 100px 40px;
+  }
+  
+  .intro h2 {
+    font-size: 3rem;
+  }
+  
+  .intro p {
+    font-size: 1.2rem;
+  }
+  
+  .membersGrid {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+  }
+  
+  .memberCard {
+    padding: 40px;
+  }
+  
+  .memberImage {
+    width: 140px;
+    height: 140px;
+  }
+  
+  .memberName {
+    font-size: 1.6rem;
+  }
+  
+  .memberDesignation {
+    font-size: 1.1rem;
+  }
+}

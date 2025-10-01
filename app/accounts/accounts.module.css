@@ -1,0 +1,438 @@
+.container {
+  min-height: 100vh;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.hero {
+  background: linear-gradient(135deg, rgb(219, 6, 24) 0%, rgb(150, 0, 20) 100%);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.heroContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.iconContainer {
+  background: rgba(255, 255, 255, 0.15);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 30px;
+  backdrop-filter: blur(10px);
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  opacity: 0.9;
+  font-weight: 300;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.section {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.section h2 {
+  color: rgb(219, 6, 24);
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.overview {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #666;
+  margin: 0;
+}
+
+.featuresList {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 25px;
+  background: #f8f9fa;
+  border-radius: 15px;
+  border: 1px solid #e9ecef;
+}
+
+.featureIcon {
+  color: rgb(219, 6, 24);
+  flex-shrink: 0;
+  margin-top: 5px;
+}
+
+.feature h3 {
+  color: #333;
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.feature p {
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.benefitsList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+}
+
+.benefit {
+  background: #e8f5e8;
+  padding: 20px;
+  border-radius: 12px;
+  border-left: 4px solid #4caf50;
+  color: #2e7d32;
+  font-weight: 500;
+}
+
+.requirements {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 40px;
+}
+
+.reqSection h3 {
+  color: rgb(219, 6, 24);
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.reqSection ul {
+  list-style: none;
+  padding: 0;
+}
+
+.reqSection li {
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+  color: #666;
+  position: relative;
+  padding-left: 25px;
+}
+
+.reqSection li:before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.reqSection li:last-child {
+  border-bottom: none;
+}
+
+.docCategories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.docCategory {
+  background: #f8f9fa;
+  padding: 25px;
+  border-radius: 15px;
+  border: 1px solid #e9ecef;
+}
+
+.docCategory h3 {
+  color: rgb(219, 6, 24);
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.docCategory ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.docCategory li {
+  padding: 8px 0;
+  color: #666;
+  position: relative;
+  padding-left: 20px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.docCategory li:before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: rgb(219, 6, 24);
+  font-weight: bold;
+}
+
+.docCategory li:last-child {
+  border-bottom: none;
+}
+
+.relatedAccounts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.accountCard {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  border: 2px solid transparent;
+}
+
+.accountCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(219, 6, 24, 0.15);
+  border-color: rgba(219, 6, 24, 0.2);
+}
+
+.accountImage {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.accountCard:hover .accountImage {
+  transform: scale(1.05);
+}
+
+.accountInfo {
+  padding: 20px;
+}
+
+.accountInfo h3 {
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.accountInfo p {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .requirements {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .docCategories {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+  }
+}
+
+@media (max-width: 968px) {
+  .hero {
+    padding: 60px 15px;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+  }
+
+  .content {
+    padding: 40px 15px;
+  }
+
+  .section {
+    padding: 30px 20px;
+  }
+
+  .benefitsList {
+    grid-template-columns: 1fr;
+  }
+
+  .relatedAccounts {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 50px 15px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .section h2 {
+    font-size: 1.6rem;
+  }
+
+  .feature {
+    padding: 20px;
+  }
+
+  .feature h3 {
+    font-size: 1.1rem;
+  }
+
+  .docCategories {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .docCategory {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .iconContainer {
+    width: 100px;
+    height: 100px;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+  }
+
+  .section {
+    padding: 25px 15px;
+  }
+
+  .feature {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 15px;
+  }
+
+  .featureIcon {
+    margin: 0 auto 10px;
+  }
+
+  .accountInfo {
+    padding: 15px;
+  }
+
+  .accountInfo h3 {
+    font-size: 1.1rem;
+  }
+
+  .accountInfo p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Large Screen / TV Optimization */
+@media (min-width: 1400px) {
+  .hero {
+    padding: 100px 40px;
+  }
+
+  .title {
+    font-size: 3.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+  }
+
+  .content {
+    max-width: 1200px;
+    padding: 80px 40px;
+  }
+
+  .section {
+    padding: 50px;
+  }
+
+  .section h2 {
+    font-size: 2.5rem;
+  }
+
+  .overview {
+    font-size: 1.2rem;
+  }
+
+  .feature h3 {
+    font-size: 1.4rem;
+  }
+
+  .feature p {
+    font-size: 1rem;
+  }
+
+  .relatedAccounts {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  .accountImage {
+    height: 200px;
+  }
+
+  .accountInfo {
+    padding: 25px;
+  }
+
+  .accountInfo h3 {
+    font-size: 1.3rem;
+  }
+
+  .accountInfo p {
+    font-size: 1rem;
+  }
+}
