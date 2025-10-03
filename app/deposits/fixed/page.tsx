@@ -154,29 +154,38 @@ export default function FixedDeposit() {
           {/* Millionaire Scheme */}
           <div className={styles.millionaireWrapper}>
             <h3 className={styles.millionaireTitle}>
-              MODEL MILLIONAIRE SCHEME (60 Months)
+              DIWALI DHAMAKA 
             </h3>
             <div className={styles.millionaireGrid}>
               <div className={styles.millionaireCard}>
                 <h4 className={styles.millionaireCardTitle}>
-                  General Public - 6.65%
+                  General Public - 7.25%
                 </h4>
                 <p className={styles.millionaireDetails}>
-                  Instalment – Rs.14,032/-
+                  Instalment – Rs.1,00,000/ - Maturity Amount – Rs.1,07,471/
+                
                 </p>
                 <p className={styles.millionaireDetails}>
-                  Maturity Amount – Rs.10,00,089/-
+                 Instalment – Rs.5,00,000/ - Maturity Amount – Rs.5,37,357/-
+                 
+                </p>
+                <p className={styles.millionaireDetails}>
+                 Instalment – Rs.10,00,000/ - Maturity Amount – Rs.10,74,713/-
+                 
                 </p>
               </div>
               <div className={styles.millionaireCard}>
                 <h4 className={styles.millionaireCardTitle}>
-                  Senior Citizens - 6.90%
+                  Senior Citizens - 7.75%
                 </h4>
                 <p className={styles.millionaireDetails}>
-                  Instalment – Rs.13,940/-
+                  Instalment – Rs.1,00,000/ -- Maturity Amount – Rs.1,08,003/
                 </p>
                 <p className={styles.millionaireDetails}>
-                  Maturity Amount – Rs.10,00,111/-
+                  Instalment – Rs.5,00,000/ -- Maturity Amount – Rs.5,40,015/
+                </p>
+                <p className={styles.millionaireDetails}>
+                  Instalment – Rs.10,00,000/ -- Maturity Amount – Rs.10,80,029/
                 </p>
               </div>
             </div>
