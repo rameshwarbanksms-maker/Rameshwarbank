@@ -7,7 +7,7 @@ import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer, Legend } from "recha
 export default function BusinessLoan() {
   // EMI Calculator State
   const [loanAmount, setLoanAmount] = useState<number>(500000);
-  const [interestRate, setInterestRate] = useState<number>(18);
+  const [interestRate, setInterestRate] = useState<number>(12);
 
   const [tenure, setTenure] = useState<number>(60); // in months
   const [emi, setEmi] = useState<number>(0);
@@ -132,7 +132,7 @@ export default function BusinessLoan() {
             {/* Interest Rate Slider */}
            {/* Interest Rate Fixed */}
 <div className={styles.inputGroup}>
-  <label>Interest Rate (%): 18</label>
+  <label>Interest Rate (%): 12</label>
 </div>
 
 
@@ -202,3 +202,4 @@ export default function BusinessLoan() {
     </div>
   );
 }
+
