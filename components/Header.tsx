@@ -313,11 +313,14 @@ export default function Header() {
           <Link href="/loans/vehicle" onClick={() => setMobileMenuOpen(false)}>Vehicle Loan</Link>
           <Link href="/loans/education" onClick={() => setMobileMenuOpen(false)}>Educational Loan</Link>
           <Link href="/loans/personal" onClick={() => setMobileMenuOpen(false)}>Personal Loan</Link>
-           <Link href="/loans/overdraft">Overdraft aginst other securities</Link>
+          <Link href="/loans/overdraft" onClick={() => setMobileMenuOpen(false)}>Overdraft aginst other securities</Link>
+           
           <Link href="/loans/cash" onClick={() => setMobileMenuOpen(false)}>Cash Credit</Link>
           <Link href="/loans/lic" onClick={() => setMobileMenuOpen(false)}>LIC/NIC Against Loan</Link>
-           <Link href="/loans/gold">Gold loan</Link>
-                  <Link href="/loans/businessdailydeposit">Business Daily Deposit</Link>
+          <Link href="/loans/gold" onClick={() => setMobileMenuOpen(false)}>Gold Loan</Link>
+          <Link href="/loans/businessdailydeposit" onClick={() => setMobileMenuOpen(false)}>Business Daily Deposit Loan</Link>
+          
+         
         </div>
       )}
     </div>
