@@ -227,7 +227,7 @@
   /* Show hamburger menu */
   .mobileMenuButton {
     display: block;
-        margin-right: 3rem;
+        margin-right: 1rem;
         font-size: 22px;
 
   }
